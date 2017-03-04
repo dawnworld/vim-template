@@ -5,9 +5,17 @@
  * Distributed under terms of the %LICENSE% license.
  */
 
-#ifndef %GUARD%
-#define %GUARD%
+#ifndef __%GUARD%__
+#define __%GUARD%__
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 %HERE%
 
-#endif /* !%GUARD% */
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* !__%GUARD%__ */
